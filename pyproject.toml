@@ -1,0 +1,12 @@
+[project]
+name = "async-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "aio-pika>=9.6.2",
+    "dotenv>=0.9.9",
+    "python-dotenv>=1.2.2",
+]
